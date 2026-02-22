@@ -1,3 +1,5 @@
+import setuptools
+import pkg_resources
 import streamlit as st
 import tensorflow_hub as hub
 import pandas as pd
@@ -79,4 +81,5 @@ This app demonstrates **Semantic Vector Search**.
 2. These vectors are stored as a highly optimized NumPy array.
 3. When you search, your query is vectorized in real-time.
 4. The app uses **Cosine Similarity** to find the mathematical closest match in milliseconds.
+
 """)
