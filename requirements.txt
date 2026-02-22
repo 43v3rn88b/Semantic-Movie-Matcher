@@ -4,3 +4,4 @@ tensorflow-hub
 pandas
 numpy
 scikit-learn
+setuptools
